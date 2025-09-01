@@ -22,7 +22,7 @@ class MinStack {
     }
 
     public int getMin() {
-        // Brute force: scan whole stack
+       
         int min = Integer.MAX_VALUE;
         for (int num : stack) {
             if (num < min) {
